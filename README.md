@@ -10,6 +10,14 @@
 
 https://private-user-images.githubusercontent.com/88101805/619409345-cc074c5d-4567-4418-8a29-1385aaba9d5b.mp4
 
+## News
+
+- **September 16–17, 2026**
+  - Fixed a single-frame discrepancy in `get_obs` and updated both the code and Hugging Face data. Rerunning evaluations across multiple models showed that the experimental results remain essentially unchanged.
+  - Together with RoboTwin, fixed the channel ordering of the RGB data byte stream to keep both projects consistent. Please use this update with XPolicyLab commit [`bb9a0b5`](https://github.com/XPolicyLab/XPolicyLab/commit/bb9a0b5f5136a74503b679af830bfd0a3a837d5c) or later.
+  - Updated the simulation assets for the `swap_T` task to make the objects less prone to slipping.
+- **July 6, 2026** — Released the [RoboDojo paper](https://arxiv.org/abs/2607.04434) and open-sourced the code.
+
 ## ✨ Highlights
 
 <p align="center">
